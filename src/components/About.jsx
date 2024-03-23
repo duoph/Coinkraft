@@ -30,7 +30,7 @@ const About = () => {
     <>
       <div variants={textVariant()}>
         <p className={styles.sectionSubText}>Services</p>
-        <h2 className={styles.sectionHeadText}>How we can help You!</h2>
+        <h2 className={styles.sectionHeadText}>We can assist you by;</h2>
       </div>
 
       <div

@@ -23,11 +23,22 @@ function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4 text-center">Menu</h4>
             <ul className="flex flex-col items-center justify-center gap-3">
-              <li>Home</li>
-              <li>Services</li>
-              <li>Portfolio</li>
-              <li>About Us</li>
-              <li>Faq</li>
+              <a href="#services">
+                {" "}
+                <li>Services</li>
+              </a>
+              <a href="#portfolio">
+                <li>Portfolio</li>
+              </a>
+              <a href="#about">
+                <li>About Us</li>
+              </a>
+              <a href="#faq">
+                <li>Faq</li>
+              </a>
+              <a href="#contact">
+                <li>Contact</li>
+              </a>
             </ul>
           </div>
           {/* Column 3 */}
